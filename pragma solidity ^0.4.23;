@@ -88,7 +88,7 @@ contract FutureToken is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
-    uint256 public _totalSupply=3000000000;
+    uint256 public _totalSupply=2000000000;
     uint256 public startDate;
     uint256 public bonusEnds;
     uint256 public endDate;
